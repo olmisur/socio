@@ -2,7 +2,8 @@
   "name": "Socio - Tu asistente personal",
   "short_name": "Socio",
   "description": "Tu asistente personal de confianza con IA",
-  "start_url": "/",
+  "start_url": "/socio/",
+  "scope": "/socio/",
   "display": "standalone",
   "background_color": "#0f0f1a",
   "theme_color": "#1a1a2e",
@@ -28,13 +29,13 @@
     {
       "name": "Lista de la compra",
       "short_name": "Compra",
-      "url": "/?tab=compra",
+      "url": "/socio/?tab=compra",
       "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]
     },
     {
       "name": "Tareas",
       "short_name": "Tareas",
-      "url": "/?tab=tareas",
+      "url": "/socio/?tab=tareas",
       "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]
     }
   ]
